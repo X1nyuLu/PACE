@@ -1,0 +1,12 @@
+INFO:{'net': 'PACE', 'ds': 'COV', 'device': 'cuda:0', 'test': True, 'test_checkpoint': 'checkpoints/COV/PACE/924.pth', 'seed': 2024}
+INFO:              precision    recall  f1-score   support
+
+           0     0.9286    0.8667    0.8966        30
+           1     0.8529    0.9355    0.8923        31
+           2     1.0000    0.9688    0.9841        32
+
+    accuracy                         0.9247        93
+   macro avg     0.9272    0.9236    0.9243        93
+weighted avg     0.9279    0.9247    0.9253        93
+
+INFO:accuracy:0.92473

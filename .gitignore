@@ -1,0 +1,11 @@
+# ignore all images
+*.png 
+*.tiff
+
+# ignore __pycache__ directory
+__pycache__/
+**/__pycache__/
+
+# ignore temporary files
+tmp.*
+
