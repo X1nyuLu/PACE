@@ -1,7 +1,3 @@
-# ignore all images
-*.png 
-*.tiff
-
 # ignore __pycache__ directory
 __pycache__/
 **/__pycache__/
