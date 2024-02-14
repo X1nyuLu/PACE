@@ -50,4 +50,4 @@ python main.py -test --ds COV --net PACE --test_checkpoint checkpoints/COV/PACE/
 
 ## How to cite
 
-If you find this work useful, please cite our paper [here]().
+If you find this work useful, please cite our paper [here](https://doi.org/10.1021/acs.analchem.3c03889).
