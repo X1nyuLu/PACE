@@ -69,7 +69,7 @@ class Pace(nn.Module):
         )
 
     def forward(self, x):
-        # x = F.adaptive_avg_pool1d(x, self.pool_dim)
+        x = F.adaptive_avg_pool1d(x, self.pool_dim)
         x = self.spec_emb(x) # [B, dim, pool_dim // patch_size]
         x = self.dropout(x)
         for block in self.backbone:

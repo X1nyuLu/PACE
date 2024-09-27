@@ -260,7 +260,7 @@ def train_model(model, save_path, ds, device='cpu', tune=False,  **kwargs):
 
 
 def test_model(model, ds, device='cpu', verbose=True):
-    pool_dim = 256 if model.__class__.__name__ == 'Pace' else 1024
+    pool_dim = 1024
     test_loader = make_testloader(ds, pool_dim=pool_dim)
     binary = True if ds == 'FunctionalGroups' else False
     criterion = torch.nn.BCELoss() if binary else torch.nn.CrossEntropyLoss()
