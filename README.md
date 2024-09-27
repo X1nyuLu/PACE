@@ -21,6 +21,7 @@ Raman Datasets
 IR Dataset
 + [Functional Groups](https://pubs.rsc.org/en/content/articlelanding/2020/SC/C9SC06240H)
 
+**Note: These datasets are available in this repo [here](https://github.com/X1nyuLu/PACE/tree/main/datasets). However, RRUFF and FunctionalGroups (NIST) are not updated!**  
 ## Requirements
 we recommend using a virtual environment to run the code. You can create a virtual environment using the following command:
 ```bash
